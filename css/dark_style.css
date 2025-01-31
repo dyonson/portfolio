@@ -15,6 +15,10 @@ header{
     height: 125px;
 }
 
+footer{
+    height: 80px;
+}
+
 a:link{
     color: #ffffff ;
     background-color: transparent;
@@ -86,7 +90,7 @@ header{
 
 /*Deze sectie staat alle img's en teksten*/
 
-.dark_business_engels_page, .dark_business_nederlands_page, .dark_contact_info_engels_page, .dark_contact_info_nederlands_page, .dark_future_engels_page, .dark_future_nederlands_page, .dark_home_engels_page, .dark_home_engels_page, .dark_home_nederlands_page, .dark_school_project_engels_page, .dark_school_project_nederlands_page, .dark_software_developer_engels_page, .dark_software_developer_nederlands_page{
+.dark_business_engels_page, .dark_business_nederlands_page, .dark_contact_info_engels_page, .dark_contact_info_nederlands_page, .dark_future_engels_page, .dark_future_nederlands_page, .dark_home_engels_page, .dark_home_nederlands_page, .dark_school_project_engels_page, .dark_school_project_nederlands_page, .dark_software_developer_engels_page, .dark_software_developer_nederlands_page, .dark_subjects_basis_programmeren_1_engels_page, .dark_subjects_basis_programmeren_2_engels_page, .dark_subjects_object_oriented_programming_1_engels_page, .dark_subjects_object_oriented_programming_2_engels_page, .dark_subjects_website_1_engels_page, .dark_subjects_website_2_engels_page, .dark_subjects_web_application_1_engels_page, .dark_subjects_web_application_2_engels_page, .dark_subjects_basis_ict_1_engels_page, .dark_subjects_basis_ict_2_engels_page, .dark_subjects_devops_1_and_2_engels_page, .dark_subjects_project_engels_page, .dark_subjects_it_study_engels_page, .dark_subjects_code_tallen_engels_page, .dark_subjects_subjects_engels_page, .dark_subjects_basis_programmeren_1_nederlands_page, .dark_subjects_basis_programmeren_2_nederlands_page, .dark_subjects_object_oriented_programming_1_nederlands_page, .dark_subjects_object_oriented_programming_2_nederlands_page, .dark_subjects_website_1_nederlands_page, .dark_subjects_website_2_nederlands_page, .dark_subjects_web_application_1_nederlands_page, .dark_subjects_web_application_2_nederlands_page, .dark_subjects_basis_ict_1_nederlands_page, .dark_subjects_basis_ict_2_nederlands_page, .dark_subjects_devops_1_and_2_nederlands_page, .dark_subjects_project_nederlands_page, .dark_subjects_it_study_nederlands_page, .dark_subjects_code_tallen_nederlands_page, .dark_subjects_subjects_nederlands_page{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -94,12 +98,16 @@ header{
     color: #ffffff;
 }
 
-.dark_business_engels_text, .dark_business_nederlands_text, .dark_contact_info_engels_text, .dark_contact_info_nederlands_text, .dark_future_engels_text, .dark_future_nederlands_text, .dark_home_engels_text, .dark_home_engels_text, .dark_home_nederlands_text, .dark_school_project_engels_text, .dark_school_project_nederlands_text, .dark_software_developer_engels_text, .dark_software_developer_nederlands_text{
+.dark_business_engels_text, .dark_business_nederlands_text, .dark_contact_info_engels_text, .dark_contact_info_nederlands_text, .dark_future_engels_text, .dark_future_nederlands_text, .dark_home_engels_text, .dark_home_nederlands_text, .dark_school_project_engels_text, .dark_school_project_nederlands_text, .dark_software_developer_engels_text, .dark_software_developer_nederlands_text, .dark_subjects_basis_programmeren_1_engels_text, .dark_subjects_basis_programmeren_2_engels_text, .dark_subjects_object_oriented_programming_1_engels_text, .dark_subjects_object_oriented_programming_2_engels_text, .dark_subjects_website_1_engels_text, .dark_subjects_website_2_engels_text, .dark_subjects_web_application_1_engels_text, .dark_subjects_web_application_2_engels_text, .dark_subjects_basis_ict_1_engels_text, .dark_subjects_basis_ict_2_engels_text, .dark_subjects_devops_1_and_2_engels_text, .dark_subjects_project_engels_text, .dark_subjects_it_study_engels_text, .dark_subjects_code_tallen_engels_text, .dark_subjects_subjects_engels_text, .dark_subjects_basis_programmeren_1_nederlands_text, .dark_subjects_basis_programmeren_2_nederlands_text, .dark_subjects_object_oriented_programming_1_nederlands_text, .dark_subjects_object_oriented_programming_2_nederlands_text, .dark_subjects_website_1_nederlands_text, .dark_subjects_website_2_nederlands_text, .dark_subjects_web_application_1_nederlands_text, .dark_subjects_web_application_2_nederlands_text, .dark_subjects_basis_ict_1_nederlands_text, .dark_subjects_basis_ict_2_nederlands_text, .dark_subjects_devops_1_and_2_nederlands_text, .dark_subjects_project_nederlands_text, .dark_subjects_it_study_nederlands_text, .dark_subjects_code_tallen_nederlands_text, .dark_subjects_subjects_nederlands_text{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 550px;
     height: 340px;
+}
+
+.block_between{
+    height: 75px;
 }
 
 .dark_typingbox_engels, .dark_typingbox_nederlands{
@@ -108,28 +116,6 @@ header{
     align-items: center;
     font-size: x-large;
     color: #ffffff;
-}
-
-.dark_subjects_basis_programmeren_1_engels_page, .dark_subjects_basis_programmeren_2_engels_page, .dark_subjects_object_oriented_programming_1_engels_page, .dark_subjects_object_oriented_programming_2_engels_page, .dark_subjects_website_1_engels_page, .dark_subjects_website_2_engels_page, .dark_subjects_web_application_1_engels_page, .dark_subjects_web_application_2_engels_page, .dark_subjects_basis_ict_1_engels_page, .dark_subjects_basis_ict_2_engels_page, .dark_subjects_devops_1_and_2_engels_page , .dark_subjects_project_engels_page, .dark_subjects_it_study_engels_page, .dark_subjects_code_tallen_engels_page, .dark_subjects_subjects_engels_page{
-    font-size: x-large;
-    color: #ffffff;
-    margin: 25px;
-    left: 540px;
-    top: 70px;
-    position: relative;
-}
-
-.dark_subjects_basis_programmeren_1_nederlands_page, .dark_subjects_basis_programmeren_2_nederlands_page, .dark_subjects_object_oriented_programming_1_nederlands_page, .dark_subjects_object_oriented_programming_2_nederlands_page, .dark_subjects_website_1_nederlands_page, .dark_subjects_website_2_nederlands_page, .dark_subjects_web_application_1_nederlands_page, .dark_subjects_web_application_2_nederlands_page, .dark_subjects_basis_ict_1_nederlands_page, .dark_subjects_basis_ict_2_nederlands_page, .dark_subjects_devops_1_and_2_nederlands_page, .dark_subjects_project_nederlands_page, .dark_subjects_it_study_nederlands_page, .dark_subjects_code_tallen_nederlands_page, .dark_subjects_subjects_nederlands_page{
-    font-size: x-large;
-    color: #ffffff;
-    margin: 25px;
-    left: 540px;
-    top: 70px;
-    position: relative;
-}
-
-.dark_subjects_subjects_engels_page, .dark_subjects_subjects_nederlands_page{
-    margin-bottom: 150px;
 }
 
 .dark_box_navigation_balk{
@@ -146,9 +132,8 @@ header{
     align-items: center;
     border-style: solid;
     position: fixed;
-    top: 773px;
+    top: 843px;
     padding: 5px;
-    margin-top: 70px;
     border-radius: 100px;
     border-width: 5px;
     height: 30px;
@@ -164,4 +149,3 @@ header{
     margin-right: 15px;
     margin-left: 15px;
 }
-
